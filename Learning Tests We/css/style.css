@@ -26,7 +26,6 @@
 }
 
 
-
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -86,12 +85,27 @@
 .text {
     text-align: center;
     margin: 50px 25px;
+    transition: transform 0.6s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 .text-sub {
     margin: 20px;
 }
 
+.Sub-text {
+  margin-top: 50px;
+}
+
+img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.video {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 
 .burger{
     position: absolute;
@@ -157,6 +171,9 @@
     left: 0;
   }
 
+  li {
+    cursor: pointer;
+  }
 
 
 
